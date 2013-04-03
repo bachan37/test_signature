@@ -4,7 +4,6 @@ gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-gem "esignature", :path => "/home/bachans/projects/ror/demo/esignature"
 gem 'sqlite3'
 
 
@@ -15,11 +14,11 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+   gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
 end
-
+gem 'prawn'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
@@ -36,3 +35,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'pdfjs-rails'
